@@ -63,7 +63,7 @@
     projectile
 
     ;; colorful parenthesis matching
-    rainbow-delimiters
+    ;;rainbow-delimiters
 
     ;; edit html tags like sexps
     tagedit
@@ -110,6 +110,9 @@
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (ac-config-default)
+
+;; trying rainbow delim mode
+(require 'rainbow-delimiters)
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.

@@ -10,6 +10,9 @@
 ;; Show line numbers
 (global-linum-mode)
 
+;; make rainbow delim mode global
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
 (when (fboundp 'tool-bar-mode)
